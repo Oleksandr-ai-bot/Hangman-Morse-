@@ -93,7 +93,7 @@ void hangman(const char secret[]){
     int letters_count = 0;
 
     printf("Welcome to the game, Hangman!\n");
-    printf("I am thinking of a word that is %ld letters long.\n", strlen(secret));
+    printf("I am thinking of a word that is %zu letters long.\n", strlen(secret));
 
     while(guesses_left > 0){
         printf("-------------\n");
